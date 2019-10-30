@@ -1,4 +1,4 @@
-data/
+/data/
 lib/.ipynb_checkpoints/__init__.py-checkpoint.ipynb
 # Byte-compiled / optimized / DLL files
 __pycache__/
