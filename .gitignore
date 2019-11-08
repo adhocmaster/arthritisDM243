@@ -141,3 +141,4 @@ estimator/cached/1DCNN-ColumnKerne-Global-Average-model-test.h5
 estimator/cached/1DCNN-ColumnKernel-Tanh-model-train.h5
 estimator/cached/1DCNN-ColumnKernel4-Global-Average-model-test.h5
 estimator/cached/1DCNN-Encoder-Decoder-Estimator-model-train.h5
+.vscode/settings.json
