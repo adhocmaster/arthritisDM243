@@ -10,6 +10,14 @@ class ColumnFixer:
         pass
 
 
+    def fixClassColumn(self, df: pd.DataFrame):
+        """It depends on column names after fixing the df columns.
+        
+        Arguments:
+            df {pd.DataFrame} -- [description]
+        """
+
+
     def fixDf(self, df: pd.DataFrame):
         
         df.columns = df.columns.str.strip().str.replace(' ', '_').str.replace('/', '').str.replace('(', '').str.replace(')', '')

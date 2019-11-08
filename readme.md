@@ -6,3 +6,10 @@
 5. Model function based on significant features and their probable correlation.
 6. Report on data quality
 7. Report on model performance
+
+# Probable list of removable fields
+
+1. Dx_Change
+2. New_Dx
+
+
