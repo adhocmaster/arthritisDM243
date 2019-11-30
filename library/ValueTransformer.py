@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 class ValueTransformer:
 
@@ -30,5 +31,11 @@ class ValueTransformer:
 
         return df
     
+    def transformDx_Chosen(self, df: pd.DataFrame):
+
+        df['Dx_Chosen'] = np.where(df.Dx_Chosen.isna(), df.Initial_Dx, df.Dx_Chosen)
+
+        return df
+
     
 
