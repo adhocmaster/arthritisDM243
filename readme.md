@@ -13,3 +13,18 @@
 2. New_Dx
 
 
+# Transformations:
+
+## Disease Name Transformations:
+1. Find unique diseases
+2. Fix duplicates
+3. Convert to short names and transform all diseases in different columns
+
+
+## Other fiels transformations
+
+There are two kinds of other fields associated with different questions:
+1. For some questions, other field is a categorical value
+2. For others, other is a NA/1 value (NA means 0 here). And a text field specifying the other value.
+
+We are transforming the values as a single categorical value column having {None, other values}
