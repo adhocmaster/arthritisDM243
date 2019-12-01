@@ -20,4 +20,15 @@ class CategoryValueTransformer:
 
         return df
 
+    def combineAndTransformWithSecond(self, df: pd.DataFrame, firstCol, secondCol):
+
+        ''' Creates a new column 'combined_' + firstCol + '_' + secondCol '''
+
+        newCol = 'combined_' + firstCol + '_' + secondCol
+
+        # there second cols is not na, copy that value to first col
+        df[newCol] = np.where(df[secondCol].isna(), df[firstCol], df[secondCol])
+        return self.transform(df, newCol)
+
+
         
