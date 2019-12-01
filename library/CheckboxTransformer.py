@@ -16,8 +16,9 @@ class CheckboxTransformer:
 
             numberOfVals = len(df.iloc[:, i].value_counts())
             if numberOfVals < 1:
-                print(f'column {i}: {df.columns[i]} has no value. filling with zeros')
-                df.iloc[:, i] = 0
+                print(f'column {i}: {df.columns[i]} has no value. filling with nos')
+                # df.iloc[:, i] = 0
+                df.iloc[:, i] = 'no'
                 continue
 
             if numberOfVals > 1:
@@ -28,6 +29,7 @@ class CheckboxTransformer:
             
             print(f'transforming column as it has no errors {i}')
 
-            df.iloc[:, i] = np.where(df.iloc[:, i].isna(), 0,  df.iloc[:, i])
+            # df.iloc[:, i] = np.where(df.iloc[:, i].isna(), 0,  df.iloc[:, i])
+            df.iloc[:, i] = np.where(df.iloc[:, i].isna(), 'no',  'yes')
 
         return df
