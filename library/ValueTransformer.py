@@ -8,6 +8,13 @@ class ValueTransformer:
 
     def __init__(self):
         self.diseaseTransformer = DiseaseTransformer()
+
+        self.firbroMap = {
+            'No, I have never been diagnosed with fibromyalgia.': 'No',
+            'Yes, I was diagnosed with fibromyalgia after my Autoimmune Arthritis diagnosis. Please specify month/year of diagnosis:': 'No',
+            'Yes, I was diagnosed with fibromyalgia prior to my Autoimmune Arthritis diagnosis and I do, in fact, have fibromyalgia in addition to my Autoimmune Arthritis disease.': 'Yes',
+            'Yes, I was diagnosed with fibromyalgia prior to my Autoimmune Arthritis diagnosis, however, it was later determined that I do not have fibromyalgia.': 'Yes',
+        }
         pass
 
 
@@ -19,6 +26,14 @@ class ValueTransformer:
     def transformDx_Chosen(self, df: pd.DataFrame):
 
         return self.diseaseTransformer.transformDx_Chosen(df)
+
+    
+    def transformFibro(self, df: pd.DataFrame):
+        
+        diseaseMap = self.firbroMap
+        df['Fibro_dx'] = df['Fibro_dx'].transform( lambda x: diseaseMap[x])
+
+        return df
 
 
     def sanitizeTextCol(self, df:pd.DataFrame, col):
