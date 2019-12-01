@@ -35,5 +35,12 @@ class ValueTransformer:
         return df
     
 
+    def convertNumericToStr(self, df:pd.DataFrame, col, prefix='s'):
+        df[col] = prefix + df[col].astype('str')
+
+    def convert01ToYesNo(self, df:pd.DataFrame, col):
+        df[col] = np.where(df[col] == 0, 'no',  'yes')
+        return df
+
     
 
