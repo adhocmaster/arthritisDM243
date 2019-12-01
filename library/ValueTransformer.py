@@ -21,6 +21,18 @@ class ValueTransformer:
         return self.diseaseTransformer.transformDx_Chosen(df)
 
 
+    def sanitizeTextCol(self, df:pd.DataFrame, col):
+        df[col] = df[col].str.strip().str.lower().str.replace('  ', ' ').str.replace(' ', '_').str.replace('+', 'plus').str.replace('/', '').str.replace('(', '').str.replace(')', '').str.replace('[', '').str.replace(']', '')
+        return df
+
+
+    def fillMissingWithNA(self, df:pd.DataFrame, col):
+        df[col] = np.where(df[col].isna(), 'NA',  df[col])
+        return df
+
+    def fillMissingWith0(self, df:pd.DataFrame, col):
+        df[col] = np.where(df[col].isna(), 0,  df[col])
+        return df
     
 
     

@@ -1,9 +1,12 @@
 import pandas as pd
 import numpy as np
+from library.ValueTransformer import ValueTransformer
 
 
 class CheckboxTransformer:
 
+    def __init__(self):
+        self.valueTransformer = ValueTransformer()
 
     def transformByIndex(self, df:pd.DataFrame, startIndex, endIndex):
 
