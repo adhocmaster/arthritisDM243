@@ -1,0 +1,10 @@
+{
+    "while_i_experienced_bowel_inflammation_or_gastrointestinal_infections_between_0_and_<_12_months_from_initial_symptom_onset,_i_also_had_experienced_bowel_inflammation_or_gastrointestinal_infections_before_any_of_my_initial_symptoms_started.": "cat-1",
+    "i_experienced_new_bowel_inflammation_or_gastrointestinal_infections_for_the_first_time_sometime_after_the_first_24_months_after_onset": "cat-2",
+    "while_i_experienced_bowel_inflammation_or_gastrointestinal_infections_for_the_first_time_sometime_after_24_months_from_initial_symptom_onset,_i_also_had_experienced_bowel_inflammation_or_gastrointestinal_infections_before_any_of_my_initial_symptoms_started.": "cat-3",
+    "no": "no",
+    "yes,_i_experienced_bowel_inflammation_or_gastrointestinal_infections_for_the_first_time_between_12_and_<_24_months_from_initial_symptom_onset": "cat-4",
+    "yes,_i_experienced_bowel_inflammation_or_gastrointestinal_infections_for_the_first_time_between_0_and_<_12_months_from_initial_symptom_onset.": "cat-5",
+    "i_do_not_remember": "cat-6",
+    "while_i_experienced_bowel_inflammation_or_gastrointestinal_infections_for_the_first_time_between_12_and_<_24_months_from_initial_symptom_onset,_i_also_had_experienced_bowel_inflammation_or_gastrointestinal_infections_before_any_of_my_initial_symptoms_started.": "cat-7"
+}

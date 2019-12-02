@@ -1,0 +1,7 @@
+{
+    "no": "no",
+    "yes,_unusual_weight_loss_began_between_0_and_<_12_months_from_initial_onset": "cat-1",
+    "yes,_unusual_weight_loss_began_between_12_and_<_24_months_from_initial_onset": "cat-2",
+    "yes,_i_did_experience_unusual_weight_loss_but_only_sometime_after_the_first_24months_after_onset": "cat-3",
+    "i_do_not_remember": "cat-4"
+}

@@ -1,0 +1,7 @@
+{
+    "no": "no",
+    "yes,_i_noticed_unusual_discomfort_using_furniture_that_was_previously_comfortable_for_the_first_time_between_0_and_<_12_months_from_initial_onset": "cat-1",
+    "yes,_i_noticed_unusual_discomfort_using_furniture_that_was_previously_comfortable_for_the_first_time_between_12_and_<_24_months_from_initial_onset": "cat-2",
+    "i_do_not_remember": "cat-3",
+    "yes,_i_noticed_i_unusual_discomfort_using_furniture_that_was_previously_comfortable_but_only_sometime_after_the_first_24months_after_onset": "cat-4"
+}

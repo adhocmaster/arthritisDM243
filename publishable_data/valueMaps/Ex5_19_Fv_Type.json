@@ -1,0 +1,6 @@
+{
+    "NA2": "NA2",
+    "high,_spiking_fevers_averaging_>_102_degrees_f": "cat-1",
+    "low_grade_fevers_averaging_99.9_degrees_f_or_less": "cat-2",
+    "fevers_averaging_100_to_<_102_degrees_f": "cat-3"
+}

@@ -1,0 +1,9 @@
+{
+    "no,_i_never_have_never_been_diagnosed_with_splenomegaly": "cat-1",
+    "yes,_i_was_diagnosed_with_splenomegaly_for_the_first_time_between_12_and_<_24_months_from_initial_onset": "cat-2",
+    "i_do_not_remember": "cat-3",
+    "yes,_i_was_diagnosed_with_splenomegaly_between_0_and_<_12_months_from_initial_onset": "cat-4",
+    "i_had_a_history_of_splenomegaly_before_experiencing_any_other_symptoms_of_my_autoimmune_arthritis_disease.": "cat-5",
+    "i_was_diagnosed_with_splenomegaly_but_only_sometime_after_the_first_24months_after_onset": "cat-6",
+    "NA2": "NA2"
+}

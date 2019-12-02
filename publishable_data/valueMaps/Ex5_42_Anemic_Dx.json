@@ -1,0 +1,8 @@
+{
+    "no": "no",
+    "yes,_i_was_told_for_the_first_time_after_diagnosis_that_my_blood_tests_were_positive_for_anemia.": "cat-1",
+    "yes,_i_was_told_for_the_first_time_prior_to_or_at_diagnosis_that_my_blood_tests_were_positive_for_anemia.": "cat-2",
+    "i_have_been_tested_for_anemia_but_the_results_have_never_shown_i_am_positive_for_anemia.": "cat-3",
+    "i_do_not_remember": "cat-4",
+    "NA2": "NA2"
+}

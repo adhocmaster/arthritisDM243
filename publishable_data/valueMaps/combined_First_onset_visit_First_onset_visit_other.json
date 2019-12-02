@@ -1,0 +1,7 @@
+{
+    "i_saw_my_primary_care_doctorhealth_specialist_immediately_after_i_felt_the_first_symptoms.": "cat-1",
+    "while_i_did_not_go_to_a_primary_care_doctor,_health_specialist_or_hospital_immediately,_the_symptoms_continued_so_i_did_visit_the_doctorspecialist_andor_hospital_within_the_first_6_months_after_initial_onset.": "cat-2",
+    "i_went_to_the_doctorspecialist_andor_hospital_for_the_first_time_between_6_and_<_12_months_after_i_felt_the_initial_symptoms.": "cat-3",
+    "i_first_went_to_the_hospital_after_experiencing_my_initial_onset_symptoms": "cat-4",
+    "i_waited_longer_than_12_months_before_seeking_any_type_of_medical_attention": "cat-5"
+}

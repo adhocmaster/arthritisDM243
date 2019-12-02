@@ -1,0 +1,7 @@
+{
+    "i_do_not_remember": "cat-1",
+    "i_did_experience_muscles_aches_but_only_sometime_after_the_first_24months_after_onset": "cat-2",
+    "no": "no",
+    "yes,_they_began_between_0_and_<_12_months_from_initial_onset": "cat-3",
+    "yes,_they_began_between_12_and_<_24_months_from_initial_onset": "cat-4"
+}

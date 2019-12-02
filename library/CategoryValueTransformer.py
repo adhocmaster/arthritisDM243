@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 from library.ValueTransformer import ValueTransformer
 from pprint import PrettyPrinter
+import json
 
 class CategoryValueTransformer:
 
@@ -50,11 +51,18 @@ class CategoryValueTransformer:
         for val in uniqueVals:
             if len(val) >= minLengthForTransformation:
                 uniqueMap[val] = 'cat-' + str(i)
+                i += 1
             else:
                 uniqueMap[val] = val
 
         print(f'generated transformation map for column {col}:')
-        self.printer.pprint(uniqueMap)
+        # self.printer.pprint(uniqueMap)
+
+        path = f'publishable_data/valueMaps/{col}.json'
+        with open(path, 'w') as f:
+            # dill.dump(uniqueMap, f)
+            json.dump(uniqueMap, f, ensure_ascii=False, indent=4)
+            # print(f'dumped unique map to {path}')
 
         df[col] = df[col].transform( lambda x: uniqueMap[x])
 

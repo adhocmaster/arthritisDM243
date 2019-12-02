@@ -1,0 +1,8 @@
+{
+    "no,_i_never_experienced_nail_changes": "cat-1",
+    "yes,_i_noticed_i_unusual_nail_changes_but_only_sometime_after_the_first_24months_after_onset": "cat-2",
+    "yes,_i_noticed_unusual_nail_changes_for_the_first_time_between_12_and_<_24_months_from_initial_onset": "cat-3",
+    "i_do_not_remember": "cat-4",
+    "yes,_i_noticed_unusual_nail_changes_for_the_first_time_between_0_and_<_12_months_from_initial_onset": "cat-5",
+    "NA2": "NA2"
+}

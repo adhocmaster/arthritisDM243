@@ -1,0 +1,9 @@
+{
+    "NA2": "NA2",
+    "ankylosing_spondylitis_new_diagnosis_monthyear:_xxxxxx:": "cat-1",
+    "systemic_lupus_erythematosus_new_diagnosis_monthyear:_xxxxxx:_xxxx": "cat-2",
+    "still’s_disease_new_diagnosis_monthyear:_xxxxxx:": "cat-3",
+    "sjögren’s_syndrome_new_diagnosis_monthyear:_xxxxxx:": "cat-4",
+    "psoriatic_arthritis_new_diagnosis_monthyear:_xxxxxx:": "cat-5",
+    "rheumatoid_arthritis_new_diagnosis_monthyear:_xxxxxx:": "cat-6"
+}

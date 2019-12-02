@@ -1,0 +1,12 @@
+{
+    "no,_i_never_had_symptoms_of_iritis_or_uveitis": "cat-1",
+    "yes,_i_experienced_bouts_of_iritis_or_uveitis_for_the_first_time_between_0_and_<_12_months_from_initial_symptom_onset.": "cat-2",
+    "i_experienced_bouts_of_iritis_or_uveitis_for_the_first_time_sometime_after_the_first_24_months_after_onset": "cat-3",
+    "i_had_symptoms_of_iritis_or_uveitis_after_the_first_24_months_but_i_never_saw_a_doctor_for_a_diagnosis.": "cat-4",
+    "i_do_not_remember": "cat-5",
+    "while_i_experienced_bouts_of_iritis_or_uveitis_between_0_and_<_12_months_from_initial_symptom_onset,_i_also_had_experienced_bouts_of_iritis_or_uveitis_before_any_of_my_initial_symptoms_started.": "cat-6",
+    "i_had_symptoms_of_iritis_or_uveitis_within_the_first_24_months_but_i_never_saw_a_doctor_for_a_diagnosis.": "cat-7",
+    "while_i_experienced_bouts_of_iritis_or_uveitis_for_the_first_time_sometime_after_24_months_from_initial_symptom_onset,_i_also_had_experienced_bouts_of_iritis_or_uveitis_before_any_of_my_initial_symptoms_started.": "cat-8",
+    "yes,_i_experienced_bouts_of_iritis_or_uveitis_for_the_first_time_between_12_and_<_24_months_from_initial_symptom_onset": "cat-9",
+    "while_i_experienced_bouts_of_iritis_or_uveitis_for_the_first_time_between_12_and_<_24_months_from_initial_symptom_onset,_i_also_had_experienced_bouts_of_iritis_or_uveitis_before_any_of_my_initial_symptoms_started.": "cat-10"
+}

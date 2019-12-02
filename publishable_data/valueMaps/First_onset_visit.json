@@ -1,0 +1,7 @@
+{
+    "I saw my primary care doctor/health specialist immediately after I felt the first symptom(s).": "cat-1",
+    "While I did not go to a primary care doctor, health specialist or hospital immediately, the symptoms continued so I did visit the doctor/specialist and/or hospital within the first 6 months after initial onset.": "cat-2",
+    "I went to the doctor/specialist and/or hospital for the first time between 6 and < 12 months after I felt the initial symptom(s).": "cat-3",
+    "I first went to the hospital after experiencing my initial onset symptoms": "cat-4",
+    "I waited longer than 12 months before seeking any type of medical attention": "cat-5"
+}

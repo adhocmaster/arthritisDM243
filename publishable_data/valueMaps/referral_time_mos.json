@@ -1,0 +1,9 @@
+{
+    "i_was_never_referred_to_a_rheumatologist_or_immunologist.": "cat-1",
+    "i_was_referred_to_a_rheumatologist_or_immunologist_after_my_initial_doctor_visit_and_<_6_months": "cat-2",
+    "i_was_referred_to_a_rheumatologist_or_immunologist_between_6_months_and_<12_months": "cat-3",
+    "i_was_referred_to_a_rheumatologist_or_immunologist_as_a_result_of_my_initial_doctor_visit.": "cat-4",
+    "i_was_referred_to_a_rheumatologist_or_immunologist_but_i_do_not_remember_how_long_it_was_after_my_first_visit_to_the_primary_care_doctor_andor_hospital": "cat-5",
+    "it_took_more_than_24_months_but_i_was_eventually_referred_to_a_rheumatologist_or_immunologist": "cat-6",
+    "i_was_referred_to_a_rheumatologist_or_immunologist_between_12_and_<24_months": "cat-7"
+}

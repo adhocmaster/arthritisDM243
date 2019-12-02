@@ -1,0 +1,8 @@
+{
+    "NA2": "NA2",
+    "over_90_minutes": "cat-1",
+    "30_to_<_60_minutes": "cat-2",
+    "60_to_<_90_minutes": "cat-3",
+    "i_do_not_remember": "cat-4",
+    "<_30_minutes": "cat-5"
+}

@@ -1,0 +1,6 @@
+{
+    "no,_i_have_never_been_diagnosed_with_fibromyalgia.": "cat-1",
+    "yes,_i_was_diagnosed_with_fibromyalgia_after_my_autoimmune_arthritis_diagnosis._please_specify_monthyear_of_diagnosis:": "cat-2",
+    "yes,_i_was_diagnosed_with_fibromyalgia_prior_to_my_autoimmune_arthritis_diagnosis_and_i_do,_in_fact,_have_fibromyalgia_in_addition_to_my_autoimmune_arthritis_disease.": "cat-3",
+    "yes,_i_was_diagnosed_with_fibromyalgia_prior_to_my_autoimmune_arthritis_diagnosis,_however,_it_was_later_determined_that_i_do_not_have_fibromyalgia.": "cat-4"
+}

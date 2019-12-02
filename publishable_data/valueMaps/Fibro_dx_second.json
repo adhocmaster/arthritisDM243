@@ -1,0 +1,6 @@
+{
+    "Never": "cat-1",
+    "AfterFirst": "cat-2",
+    "BeforeFirst": "cat-3",
+    "BeforeFirstFalsePositive": "cat-4"
+}
