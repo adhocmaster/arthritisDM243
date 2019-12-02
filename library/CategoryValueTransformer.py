@@ -39,7 +39,7 @@ class CategoryValueTransformer:
 
     def shortenCategoricalValues(self, df: pd.DataFrame, col):
 
-        if isinstance(df[col], np.str) is False:
+        if isinstance(df[col][0], np.str) is False:
             print(f'skipping shortening for column {col} as it is not a string')
             return df
 
