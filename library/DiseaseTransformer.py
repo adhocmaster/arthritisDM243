@@ -40,4 +40,8 @@ class DiseaseTransformer:
         return df
 
     
+    def transformPostAD(self):
+        pass
+
+    
 

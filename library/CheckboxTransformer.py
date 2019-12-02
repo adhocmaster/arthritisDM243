@@ -5,8 +5,8 @@ from library.ValueTransformer import ValueTransformer
 
 class CheckboxTransformer:
 
-    def __init__(self):
-        self.valueTransformer = ValueTransformer()
+    def __init__(self, ignoreYesNoConversion = False):
+        self.valueTransformer = ValueTransformer(ignoreYesNoConversion)
 
     def transformByIndex(self, df:pd.DataFrame, startIndex, endIndex):
 
@@ -29,7 +29,8 @@ class CheckboxTransformer:
             
             print(f'transforming column as it has no errors {i}')
 
-            # df.iloc[:, i] = np.where(df.iloc[:, i].isna(), 0,  df.iloc[:, i])
-            df.iloc[:, i] = np.where(df.iloc[:, i].isna(), 'no',  'yes')
+            df.iloc[:, i] = np.where(df.iloc[:, i].isna(), 0,  df.iloc[:, i])
+            # df.iloc[:, i] = np.where(df.iloc[:, i].isna(), 'no',  'yes')
+            df = self.valueTransformer.convert01ToYesNo(df, df.columns[i])
 
         return df
