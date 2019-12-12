@@ -31,6 +31,57 @@ prognosis.
 
 ![Motivation](resources/motivation.PNG)
 
+# Challenges with Dataset
+The dataset is built against a set of questions organized
+as a survey. The accompanying questionnaire has 59
+pages. While the meaning of the data may seem obvious
+to appropriate medical practitioners, the data was far
+from ready to be analyzed systematically. Here we list
+some of the major challenges which we tackled with a
+great effort:
+
+1. Not all the questions are about earlier symptoms.
+Some of the questions are related to posterior symptoms
+or diseases. So, they surface after a person already
+has developed an autoimmune disease. And as
+the data-set holds data for those questions, too, it led
+us to filter those posterior attributes from the dataset.
+So, first challenge was to confirm which were in fact
+early symptoms.
+
+2. Mapping from questions to data object attributes
+were not obvious. For this reason, we couldn’t readily
+tell which column refers to which question. This made
+our first challenge even more difficult. In the early experiments,
+we inadvertently included some posterior
+attributes for prediction models and ended up very high
+accuracy rates but unfortunately wrong. To make the
+mapping clear, we renamed all the columns in such a
+way that we could find the associated question fast. But
+that was not enough as many of the questions didn’t
+have question numbers. So, for some questions, we created
+unique prefixes which can group related questions.
+We also made the prefixes to hold some semantics. For
+example, we use the prefix Post_AD_, for all the attributes
+which relates to diseases happening after the
+first autoimmune disease. Smart prefixing also helped
+us to filter out attributes automatically. So, for first disease
+prediction, we matched the column names with
+Post_AD_ and AAD_AD_ prefixes and dropped them.
+Without renaming columns it would be a tiresome work
+for us to manipulate columns for transformations and
+clean-up.
+
+3. Inconsistent attribute values. When it comes to
+attribute values for a real-life survey, all kinds of surprises
+are common. Here are some that we experienced
+and how we handled it:
+<p align='center'>
+  <img style='width:200px' src="resources/p1.PNG">
+  <img style='width:400px' src="resources/p2.PNG">
+  <img style='width:100px' src="resources/p3.PNG">
+</p>
+
 # Final pipeline:
 This is a final pipeline of our whole process. It was developed
 through process iterations in our experiements.
