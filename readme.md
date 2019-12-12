@@ -1,3 +1,4 @@
+# Classification of Autoimmune Diseases
 # Complete Report
 [CSE_243_Project_Report](resources/CSE_243_Project_Report.pdf)
 # Motivation
